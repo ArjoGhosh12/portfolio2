@@ -32,9 +32,6 @@ export const Interface = () => {
     <div className="flex flex-col items-center w-screen">
       <AboutSection />
       <SkillsSection />
-      <Section>
-        <h1>Projects</h1>
-      </Section>
       <ContactSection />
     </div>
   );
@@ -49,7 +46,7 @@ const AboutSection = () => {
         <span className="bg-white px-1 italic">Arjo Ghosh</span>
       </h1>
       <motion.p
-        className="text-lg text-gray-600 mt-4"
+        className="text-lg text-gray-1200 mt-4"
         initial={{
           opacity: 0,
           y: 25,
@@ -63,9 +60,9 @@ const AboutSection = () => {
           delay: 1.5,
         }}
       >
-        I am a developer
+        I am a web  developer
         <br />
-        a web designer
+        and a  web designer
       </motion.p>
       <motion.button
         className={`bg-indigo-600 text-white py-4 px-8 
@@ -91,7 +88,7 @@ const AboutSection = () => {
 
 const skills = [
   {
-    title: "Threejs / React Three Fiber",
+    title: "NODE/EXPRESS JS",
     level: 80,
   },
   {
@@ -103,7 +100,7 @@ const skills = [
     level: 90,
   },
   {
-    title: "Typescript",
+    title: "Three JS ",
     level: 60,
   },
   {
@@ -113,16 +110,16 @@ const skills = [
 ];
 const languages = [
   {
-    title: "🇫🇷 French",
-    level: 100,
+    title:  "English",
+    level: 90,
   },
   {
-    title: "🇺🇸 English",
+    title: "Bengali",
     level: 80,
   },
   {
-    title: "🇯🇵 Japanese",
-    level: 20,
+    title: "Hindi",
+    level: 60,
   },
 ];
 
